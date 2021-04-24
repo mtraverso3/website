@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "3D STL Model Viewer"
+date:   2021-04-24 3:42:00 -0700
+---
+<script src="/stl_viewer/stl_viewer.min.js"></script>
+
+<div id="stl_cont" style="width: 800px; height: 800px"></div>
+<script>
+var stl_viewer=new StlViewer(document.getElementById("stl_cont"), { models: [ {id:0, filename:"/Utah_teapot_(solid).stl "} ] });
+</script>
+
+
