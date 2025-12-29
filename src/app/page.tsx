@@ -90,6 +90,19 @@ export default function Home() {
                 </section>
 
                 <section className="section">
+                    <h2 className="section-header">PROJECTS / FUN</h2>
+                    <div className="section-content">
+                        <div className="project-item">
+                            <span className="project-name">fractal3D</span> - GPU Mandelbulb renderer using Rust + Bevy + WGSL.
+                            <div style={{marginLeft: '20px', marginTop: '4px'}}>
+                                Source: <a href="https://github.com/mtraverso3/fractal3D" target="_blank" rel="noopener noreferrer">github.com/mtraverso3/fractal3D</a><br/>
+                                Live demo (desktop recommended): <a href="https://fractal.mtraverso.net/" target="_blank" rel="noopener noreferrer">fractal.mtraverso.net</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="section">
                     <h2 className="section-header">SEE ALSO</h2>
                     <div className="section-content">
                         <span className="command">email</span>(1): <a
