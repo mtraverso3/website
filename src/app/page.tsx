@@ -92,6 +92,8 @@ export default function Home() {
                 <section className="section">
                     <h2 className="section-header">PROJECTS / FUN</h2>
                     <div className="section-content">
+
+                        {/* Mandelbulb renderer */}
                         <div className="project-item">
                             <span className="project-name">fractal3D</span> - GPU Mandelbulb renderer using Rust + Bevy + WGSL.
                             <div style={{marginLeft: '20px', marginTop: '4px'}}>
@@ -99,6 +101,16 @@ export default function Home() {
                                 Live demo (desktop recommended): <a href="https://fractal.mtraverso.net/" target="_blank" rel="noopener noreferrer">fractal.mtraverso.net</a>
                             </div>
                         </div>
+
+                        {/* Connect the Stars Solver */}
+                        <div className="project-item" style={{marginTop: '16px'}}>
+                            <span className="project-name">Connect the Stars Solver</span> - Find the shortest path between any two actors via their shared movies. Inspired by connectthestars.xyz.
+                            <div style={{marginLeft: '20px', marginTop: '4px'}}>
+                                Live app: <a href="https://stars.mtraverso.net/" target="_blank" rel="noopener noreferrer">stars.mtraverso.net</a>
+                            </div>
+                        </div>
+
+
                     </div>
                 </section>
 
@@ -130,10 +142,11 @@ export default function Home() {
 
                 <div className="man-footer">
                     <span>MTRAVERSO 1.1</span>
-                    <span>Last Change: November 19, 2025</span>
+                    <span>Last Change: Februrary 16, 2026</span>
                     <span>MTRAVERSO(1)</span>
                 </div>
             </div>
         </>
-    );
+    )
+        ;
 }
