@@ -22,9 +22,8 @@ export default function Home() {
                 <section className="section">
                     <h2 className="section-header">NAME</h2>
                     <div className="section-content">
-                        <span className="command">Marcos Traverso</span> - Graduate student in Computer Science,
-                        Software
-                        Engineer
+                        <span className="command">Marcos Traverso</span> - Software Engineer at Starburst Data,
+                        M.S. in Computer Science
                     </div>
                 </section>
 
@@ -38,9 +37,9 @@ export default function Home() {
                     <h2 className="section-header">DESCRIPTION</h2>
                     <div className="section-content">
                         <p>
-                            I&apos;m a graduate student at Stevens Institute of Technology pursuing a Master&apos;s in
-                            Computer Science with a focus on Machine Learning. I graduated with a Bachelor&apos;s in
-                            Computer Science with a minor in Pure and Applied Mathematics.
+                            I&apos;m a Software Engineer at Starburst Data. I hold a Master&apos;s in Computer Science
+                            with a focus on Machine Learning from Stevens Institute of Technology, along with a
+                            Bachelor&apos;s in Computer Science and a minor in Pure and Applied Mathematics.
                         </p>
                         <p style={{marginTop: '8px'}}>
                             My work spans full-stack development, DevOps, natural language processing, and systems
@@ -48,10 +47,6 @@ export default function Home() {
                             I&apos;m interested in building practical tools and exploring the intersection of software
                             engineering
                             and machine learning.
-                        </p>
-                        <p style={{marginTop: '8px'}}>
-                            Currently teaching Computer Architecture and Systems Programming as a Course Assistant at
-                            Stevens.
                         </p>
                     </div>
                 </section>
@@ -61,8 +56,12 @@ export default function Home() {
                     <h2 className="section-header">EXPERIENCE</h2>
                     <div className="section-content">
                         <div className="project-item">
+                            <span className="project-name">Starburst Data</span> - Software Engineer, 2026-Present
+                        </div>
+
+                        <div className="project-item">
                             <span className="project-name">Stevens Institute of Technology</span> - Course Assistant,
-                            2023-Present
+                            2023-2026
                         </div>
 
                         <div className="project-item">
@@ -81,7 +80,7 @@ export default function Home() {
                         <div className="project-name" style={{marginBottom: '8px'}}>Stevens Institute of Technology
                         </div>
                         <div className="project-item" style={{marginLeft: '20px'}}>
-                            M.S. in Computer Science, Graduate Certificate in Machine Learning | Expected 2026
+                            M.S. in Computer Science, Graduate Certificate in Machine Learning | 2025-2026
                         </div>
                         <div className="project-item" style={{marginLeft: '20px'}}>
                             B.S. in Computer Science, Minor in Pure and Applied Mathematics | 2021-2025
@@ -142,7 +141,7 @@ export default function Home() {
 
                 <div className="man-footer">
                     <span>MTRAVERSO 1.1</span>
-                    <span>Last Change: Februrary 16, 2026</span>
+                    <span>Last Change: June 22, 2026</span>
                     <span>MTRAVERSO(1)</span>
                 </div>
             </div>
