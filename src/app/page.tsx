@@ -101,6 +101,15 @@ export default function Home() {
                             </div>
                         </div>
 
+                        {/* Mandelbrot explorer */}
+                        <div className="project-item" style={{marginTop: '16px'}}>
+                            <span className="project-name">mandelbrot</span> - Deep-zoom Mandelbrot explorer and CLI using Rust + WebGPU, with perturbation theory down to 10^250 and an infinite auto zoom.
+                            <div style={{marginLeft: '20px', marginTop: '4px'}}>
+                                Source: <a href="https://github.com/mtraverso3/mandelbrot" target="_blank" rel="noopener noreferrer">github.com/mtraverso3/mandelbrot</a><br/>
+                                Live demo: <a href="https://mandelbrot.mtraverso.net/" target="_blank" rel="noopener noreferrer">mandelbrot.mtraverso.net</a>
+                            </div>
+                        </div>
+
                         {/* Connect the Stars Solver */}
                         <div className="project-item" style={{marginTop: '16px'}}>
                             <span className="project-name">Connect the Stars Solver</span> - Find the shortest path between any two actors via their shared movies. Inspired by connectthestars.xyz.
@@ -141,7 +150,7 @@ export default function Home() {
 
                 <div className="man-footer">
                     <span>MTRAVERSO 1.1</span>
-                    <span>Last Change: June 22, 2026</span>
+                    <span>Last Change: September 26, 2026</span>
                     <span>MTRAVERSO(1)</span>
                 </div>
             </div>
